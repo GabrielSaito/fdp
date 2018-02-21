@@ -2,7 +2,7 @@
 
 import re
 var = raw_input("Digite seu e-mail: ")
-if re.match("^[a-z]+([._-][0-9a-z]|[0-9])*@[]a-z+([0-9a-z]|[0-9])*(\.com|\.br|.com\.br)$" ,var):
+if re.match("^[a-z]+([._-][0-9a-z]|[0-9])*@[a-z]+([0-9a-z]|[0-9])*(\.com|\.br|.com\.br)$" ,var):
 	print("Valido")
 else:
 	print("Invalido")
