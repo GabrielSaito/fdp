@@ -2,7 +2,7 @@
 echo "Validador de informações"
 
 read -p  "Digite seu nome: " NAME
-(echo $NAME | grep -E '^([a-zA-Z])$' && echo -e 'Valido' || echo -e 'Invalido'
+echo $NAME | grep -E '^([a-zA-Z])$' && echo -e 'Valido' || echo -e 'Invalido'
 
 read -p "DIgite a data: " DAT
 echo $DAT | grep -E '^(0?[1-9]|[12][0-9]|3[01])/(0?[1-9]|1[0-2])/(200[0-9]|201[0-8]|19[0-9]{2})$' && echo -e 'Valido' || echo -e 'Invalido'
