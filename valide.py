@@ -9,7 +9,7 @@ else:
 	
 
 var = raw_input("Digite seu nome: ")
-if re.match("^([a-zA-Z])$" ,var):
+if re.match("^([a-zA-Z])+$" ,var):
 	print("Valido")
 else:
 	print("Invalido")
