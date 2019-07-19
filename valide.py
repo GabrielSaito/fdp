@@ -7,12 +7,17 @@ if re.match("^[a-z]+([._-][0-9a-z]|[0-9])*@[a-z]+([0-9a-z]|[0-9])*(\.com|\.br|.c
 else:
 	print("Invalido")
 	
-
+#TESTE
 var = raw_input("Digite seu nome: ")
 if re.match("^([a-zA-Z])+$" ,var):
 	print("Valido")
 else:
 	print("Invalido")
+#TESTE
+#TESTE
+#TESTE
+#TESTE
+#TESTE
 	
 	
 
