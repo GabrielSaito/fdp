@@ -13,11 +13,6 @@ if re.match("^([a-zA-Z])+$" ,var):
 	print("Valido")
 else:
 	print("Invalido")
-#TESTE
-#TESTE
-#TESTE
-#TESTE
-#TESTE
 	
 	
 
