@@ -1,0 +1,199 @@
+/* GENERAL */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+h1, h2,h3,h4
+{
+    color: #444;
+}
+h1
+{
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+}
+h2
+{
+    font-size: 55px;
+}
+h3
+{
+    font-size: 30px;
+}
+h4
+{
+    font-size: 24px;
+}
+p
+{
+    line-height: 20px;
+    color: #777;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+#nome{
+    background-color: #ff7a00;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+     
+}
+.orange
+{
+    color: #ff7a00;
+}
+.clear
+{
+    clear: both;
+}
+small
+{
+    font-size: 13px;
+    font-style:italic;
+}
+
+/* HEADER */
+
+header
+{
+    height: 100px;
+    background-color: #ff7a00;
+    margin: 0%;
+
+
+    
+}
+header h1
+{
+    
+    float: left;
+    margin-top: 20px;
+    padding-right: 40px;
+}
+header nav
+{
+    float: right;
+    margin-top: 30px;
+    
+}
+header nav ul li
+{
+    float:left;
+    display: inline-block;
+    font-family:sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+    color: #ff7a00;
+}
+a:hover{
+    background-color: white;
+    
+}
+header nav ul li a
+{
+    
+    font-weight: bold;
+    margin-right: 10px;
+    color: maroon;
+   
+}
+
+/* MAIN IMAGE */
+
+#main-image
+{
+    height: 500px;
+    background: url('images/main3.jpg') center;
+   
+}
+#main-image h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+    color: #ff7a00;
+}
+.button-1
+{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius:  3px;
+}
+.button-1:hover
+{
+    background: #02b8dd;
+}
+
+
+.box {
+    width: 530px;
+    height: auto;
+    float: left;
+    margin: 30px;
+}
+
+div#a-b-c {
+    width: 1550px;
+    height: auto;
+    margin: auto;
+}
+
+div#a-b-c h2 {
+text-align: left;
+display: inline;
+
+}
+
+div#a-b-c p {
+text-align: left;
+display: block;
+
+}
+.left {
+    margin-left: 70px;
+}
+/*
+  FOOTER
+  */
+  footer {
+	/*padding: 10px 0;*/
+    text-align: center;
+	padding: 30px 0;
+	width:auto;
+	margin: 0 auto;
+	background-color: #ff7a00;
+	color: #fff;
+	position: relative;
+    clear: both;
+  }
